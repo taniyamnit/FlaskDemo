@@ -13,10 +13,14 @@ def about():
 def bootstrap():
     return render_template('bootstrap.html')
 
+@app.route("/bootstrapexamples")
+def bootstrapexamples():
+    return render_template('bootstrapexamples.html')
 
 
 
-    
+
+
 app.run(debug = True)
 
 
